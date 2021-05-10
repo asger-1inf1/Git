@@ -137,4 +137,14 @@ public class Graph {
         }
         return -1;
     }
+    public int knotenZaehlen ()
+    {
+        int a = 0;
+        for(int i= 0; i<knotenfeld.length; i++)
+        {
+            a= a+1;
+        }
+        return a;
+    }
+    }
 }
