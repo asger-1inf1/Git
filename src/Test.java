@@ -11,6 +11,7 @@ public class Test {
      * Konstruktor für Objekte der Klasse Test
      */
     public Test() {
+        start();
         Graph g = new Graph(6);
         g.knotenEinfuegen("k1");
         g.knotenEinfuegen("k2");
@@ -38,6 +39,10 @@ public class Test {
         g.matrixAusgeben();
         System.out.println("Tiefensuche für k1");
         g.tiefensucheStarten("k1");
+    }
+
+    private void start(){
+        System.out.println("Starte Test:");
     }
 
     public static void main(String[] args) {
