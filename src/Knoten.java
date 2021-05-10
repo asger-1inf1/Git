@@ -9,6 +9,8 @@ public class Knoten {
     // Aufgabe 1a)
     // Attribut name
     private String name;
+    private int x;
+
 
     // Aufgabe 1b)
     // Konstruktor mit frei wählbarem Namen
