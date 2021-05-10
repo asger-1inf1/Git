@@ -39,10 +39,15 @@ public class Test {
         g.matrixAusgeben();
         System.out.println("Tiefensuche für k1");
         g.tiefensucheStarten("k1");
+        finish();
     }
 
     private void start(){
         System.out.println("Starte Test:");
+    }
+
+    private void finish(){
+        System.out.println("Finished");
     }
 
     public static void main(String[] args) {
